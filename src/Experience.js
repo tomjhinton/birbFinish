@@ -96,8 +96,11 @@ export default function Experience(){
 
 
          <primitive ref={raph} object={ model.scene } 
-         scale={ 0.35 }
+         scale={ 10.5 }
          position={ [ 0, -.5, 2.5 ] }/>
+
+
+
 
 <instancedMesh ref={mesh} args={[null, null, count]}>
         <icosahedronGeometry args={[0.3, 1]} />
